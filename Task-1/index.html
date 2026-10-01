@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header">
+
+        <div class="left">
+            <button class="menu">☰</button>
+
+            <div class="youtube-logo">
+                <span class="play">▶</span>
+                <strong>YouTube</strong>
+            </div>
+        </div>
+
+        <div class="search-box">
+            <input type="text" placeholder="Search">
+            <button>🔍</button>
+        </div>
+
+        <div class="right">
+            <button>🎥</button>
+            <button>🔔</button>
+            <div class="profile">B</div>
+        </div>
+
+    </header>
+
+
+    <!-- Main Layout -->
+    <div class="layout">
+
+        <!-- Sidebar -->
+        <aside class="sidebar">
+
+            <a class="active" href="#">🏠 Home</a>
+            <a href="#">🎬 Shorts</a>
+            <a href="#">📺 Subscriptions</a>
+
+            <hr>
+
+            <h3>You</h3>
+
+            <a href="#">📜 History</a>
+            <a href="#">▶ Playlists</a>
+            <a href="#">📹 Your videos</a>
+            <a href="#">⏰ Watch later</a>
+            <a href="#">👍 Liked videos</a>
+
+            <hr>
+
+            <h3>Explore</h3>
+
+            <a href="#">🔥 Trending</a>
+            <a href="#">🎵 Music</a>
+            <a href="#">🎮 Gaming</a>
+            <a href="#">📰 News</a>
+            <a href="#">🏆 Sports</a>
+
+        </aside>
+
+
+        <!-- Content -->
+        <main class="content">
+
+            <!-- Categories -->
+            <div class="categories">
+
+                <button class="selected">All</button>
+                <button>Music</button>
+                <button>Live</button>
+                <button>Gaming</button>
+                <button>News</button>
+                <button>Programming</button>
+                <button>Movies</button>
+                <button>Technology</button>
+                <button>Recently uploaded</button>
+
+            </div>
+
+
+            <!-- Video Grid -->
+            <section class="video-grid">
+
+                <!-- Video 1 -->
+                <article class="video-card">
+
+                    <div class="thumbnail">
+                        <img src="https://picsum.photos/600/340?random=1"
+                             alt="Video thumbnail">
+                        <span class="duration">10:24</span>
+                    </div>
+
+                    <div class="video-info">
+
+                        <div class="channel-logo">T</div>
+
+                        <div>
+                            <h3>Learn Web Development From Scratch</h3>
+
+                            <p>Tech Academy</p>
+
+                            <p>1.2M views • 2 days ago</p>
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- Video 2 -->
+                <article class="video-card">
+
+                    <div class="thumbnail">
+                        <img src="https://picsum.photos/600/340?random=2"
+                             alt="Video thumbnail">
+                        <span class="duration">8:42</span>
+                    </div>
+
+                    <div class="video-info">
+
+                        <div class="channel-logo">C</div>
+
+                        <div>
+                            <h3>Complete CSS Tutorial for Beginners</h3>
+
+                            <p>Code With Me</p>
+
+                            <p>845K views • 5 days ago</p>
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- Video 3 -->
+                <article class="video-card">
+
+                    <div class="thumbnail">
+                        <img src="https://picsum.photos/600/340?random=3"
+                             alt="Video thumbnail">
+                        <span class="duration">15:31</span>
+                    </div>
+
+                    <div class="video-info">
+
+                        <div class="channel-logo">D</div>
+
+                        <div>
+                            <h3>Build Your First Website in 2026</h3>
+
+                            <p>Dev World</p>
+
+                            <p>2.4M views • 1 week ago</p>
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- Video 4 -->
+                <article class="video-card">
+
+                    <div class="thumbnail">
+                        <img src="https://picsum.photos/600/340?random=4"
+                             alt="Video thumbnail">
+                        <span class="duration">22:10</span>
+                    </div>
+
+                    <div class="video-info">
+
+                        <div class="channel-logo">A</div>
+
+                        <div>
+                            <h3>HTML CSS JavaScript Full Course</h3>
+
+                            <p>AI Academy</p>
+
+                            <p>3.1M views • 2 weeks ago</p>
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- Video 5 -->
+                <article class="video-card">
+
+                    <div class="thumbnail">
+                        <img src="https://picsum.photos/600/340?random=5"
+                             alt="Video thumbnail">
+                        <span class="duration">12:55</span>
+                    </div>
+
+                    <div class="video-info">
+
+                        <div class="channel-logo">P</div>
+
+                        <div>
+                            <h3>Python Projects Every Beginner Should Build</h3>
+
+                            <p>Programming Hub</p>
+
+                            <p>654K views • 3 days ago</p>
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- Video 6 -->
+                <article class="video-card">
+
+                    <div class="thumbnail">
+                        <img src="https://picsum.photos/600/340?random=6"
+                             alt="Video thumbnail">
+                        <span class="duration">9:18</span>
+                    </div>
+
+                    <div class="video-info">
+
+                        <div class="channel-logo">M</div>
+
+                        <div>
+                            <h3>Top AI Tools You Should Know</h3>
+
+                            <p>Modern Tech</p>
+
+                            <p>1.8M views • 4 days ago</p>
+                        </div>
+
+                    </div>
+
+                </article>
+
+            </section>
+
+        </main>
+
+    </div>
+
+</body>
+</html>
