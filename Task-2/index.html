@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Task Manager</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="app">
+
+        <div class="todo-container">
+
+            <h1>My Tasks</h1>
+
+            <p class="subtitle">
+                Stay organized. Get things done.
+            </p>
+
+            <!-- Add Task -->
+            <div class="input-area">
+
+                <input
+                    type="text"
+                    id="taskInput"
+                    placeholder="What needs to be done?"
+                    autocomplete="off"
+                >
+
+                <button id="addButton">
+                    Add Task
+                </button>
+
+            </div>
+
+            <!-- Task Statistics -->
+            <div class="task-info">
+
+                <span id="taskCount">
+                    0 tasks
+                </span>
+
+                <button id="clearCompleted">
+                    Clear completed
+                </button>
+
+            </div>
+
+            <!-- Task List -->
+            <ul id="taskList"></ul>
+
+            <!-- Empty Message -->
+            <div id="emptyMessage" class="empty-message">
+                <div class="empty-icon">✓</div>
+
+                <h3>No tasks yet</h3>
+
+                <p>
+                    Add a task above to get started.
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
